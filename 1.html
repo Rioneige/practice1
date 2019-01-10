@@ -5,21 +5,49 @@
 <meta charset="utf-8">
 
 <style>
+body {
+  margin:0;
+}
  a {
    color:skyblue;
    text-decoration: none;
  }
-
+h1 {
+ font-size:45px;
+ text-align: center;
+ border-bottom:1px solid grey;
+ margin:0;
+ padding:20px;
+}
+#grid ol {
+  border-right:1px solid grey;
+  width:120px;
+  margin:0;
+  padding-left:33px;
+  padding-top:25px;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+#article{
+  padding:25px;
+}
 </style>
+
 </head>
 
 <body>
 <h1><a href="index.html">Alice in Wonderland</a></h1>
+
+<div id="grid">
 <ol>
   <li><a href="1.html">1951 film</a></li>
   <li><a href="2.html">movie script</a></li>
   <li><a href="3.html">puns</a></li>
 </ol>
+
+  <div id="article">
 
 
 
@@ -51,5 +79,6 @@
   At Alice's trial, the Mad Hatter, March Hare and Dormouse are called to the stand as witnesses, briefly celebrating the Queen's unbirthday and giving her a headpiece as a present, which turns into the Cat. Chaos ensues when the Dormouse, frightened when Alice points out the Cat, runs around the courtroom. As the Queen orders Alice's execution, Alice eats the pieces of the Caterpillar's mushroom she saved and grows large again. The King and Queen order her to leave the courthouse, but she refuses and insults the Queen. As she does so, she returns to her normal size, and the Queen orders her execution. Alice flees, and the Queen, King, card guards and other characters give chase. When she reaches the small door she encountered at the beginning of the film, he shows her that she is actually already outside, asleep. She yells at herself to wake up; she does thanks to her sister, and they leave the riverbank to go home for tea.
 </p>
 
+</div>
 </body>
 </html>

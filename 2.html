@@ -5,23 +5,49 @@
 <meta charset="utf-8">
 
 <style>
+body {
+  margin:0;
+}
  a {
    color:skyblue;
    text-decoration: none;
  }
-
+h1 {
+ font-size:45px;
+ text-align: center;
+ border-bottom:1px solid grey;
+ margin:0;
+ padding:20px;
+}
+#grid ol {
+  border-right:1px solid grey;
+  width:120px;
+  margin:0;
+  padding-left:33px;
+  padding-top:25px;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+#article{
+  padding:25px;
+}
 </style>
+
 </head>
 
 <body>
 <h1><a href="index.html">Alice in Wonderland</a></h1>
+
+<div id="grid">
 <ol>
   <li><a href="1.html">1951 film</a></li>
   <li><a href="2.html">movie script</a></li>
   <li><a href="3.html">puns</a></li>
 </ol>
 
-
+  <div id="article">
 <img src="alice-2902560_1920.jpg" width="80%">
 
 
@@ -1740,6 +1766,7 @@ I wonder where
 <br>
 <img src="alice-29202_1280.png" width="50%">
 
+</div>
 
 </body>
 </html>
